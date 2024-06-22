@@ -23,6 +23,13 @@ public class ContactUsEntity {
 	private String cemail;
 	private String phno;
 	
+		//bug 130
+		import jakarta.persistence.Column;
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
+import jakarta.persistence.Table;
 	@CreationTimestamp
 	@Column(name="created_date", updatable = false)
 	private LocalDate createdDate;
@@ -31,12 +38,33 @@ public class ContactUsEntity {
 	@Column(name="updated_date", insertable = false)
 	private LocalDate updatedDate;
 
-	system.out.println("bug-1300000000000000")
-		system.out.println("bug-1300000000000000")
+public String getWelcomr()
+{
 
-	system.out.println("bug-1300000000000000")
+	//bug 123
+    system.out.println("bug-1300000000000000");
+	 system.out.println("bug-1300000000000000");
 
-	system.out.println("bug-1300000000000000")
+	system.out.println("bug-1300000000000000");
+
+	system.out.println("bug-1300000000000000");
+	system.out.println("bug-1300000000000000");
+
+	system.out.println("bug-1300000000000000");
+	system.out.println("bug-1300000000000000");
+
+	system.out.println("bug-1300000000000000");
+	system.out.println("bug-1300000000000000");
+
+	system.out.println("bug-1300000000000000");
+	system.out.println("bug-1300000000000000");
+
+	system.out.println("bug-1300000000000000");
+	system.out.println("bug-1300000000000000");
+
+	system.out.println("bug-1300000000000000");
+}
+	
 
 	
 	
