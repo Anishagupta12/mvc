@@ -30,6 +30,8 @@ public class ContactUsEntity {
 	@UpdateTimestamp
 	@Column(name="updated_date", insertable = false)
 	private LocalDate updatedDate;
+
+	system.out.println("bug-1300000000000000")
 	
 	
 	public Integer getCid() {
