@@ -19,6 +19,7 @@ public class ContactUsEntity {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Integer cid;
+	[int 1=10;]
 	private String cname;
 	private String cemail;
 	private String phno;
