@@ -32,6 +32,12 @@ public class ContactUsEntity {
 	private LocalDate updatedDate;
 
 	system.out.println("bug-1300000000000000")
+		system.out.println("bug-1300000000000000")
+
+	system.out.println("bug-1300000000000000")
+
+	system.out.println("bug-1300000000000000")
+
 	
 	
 	public Integer getCid() {
